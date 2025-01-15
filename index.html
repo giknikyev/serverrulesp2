@@ -109,30 +109,42 @@
     }
 
     @media (max-width: 768px) {
-      .container {
-        padding: 20px;
-      }
+  body {
+    font-size: 1rem;
+  }
 
-      header h1 {
-        font-size: 2.5rem;
-      }
+  header h1 {
+    font-size: 2.5rem; /* Менший розмір на мобільних */
+  }
 
-      header p {
-        font-size: 0.9rem;
-      }
+  header p {
+    font-size: 1.2rem; /* Небагато менший шрифт */
+  }
 
-      h2 {
-        font-size: 1.8rem;
-      }
+  h2 {
+    font-size: 1.8rem;
+  }
 
-      p {
-        font-size: 1rem;
-      }
+  p {
+    font-size: 1rem;
+    word-wrap: break-word; /* Це забезпечить перенесення тексту, якщо він занадто довгий */
+  }
 
-      .penalty {
-        font-size: 1.1rem;
-      }
-    }
+  .penalty {
+    font-size: 1.1rem;
+    word-wrap: break-word;
+  }
+
+  .container {
+    padding: 15px; /* Зменшуємо відступи для мобільних */
+  }
+
+  .rule {
+    padding: 20px;
+    font-size: 1rem;
+  }
+}
+
   </style>
 </head>
 <body>
